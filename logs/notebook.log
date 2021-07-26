@@ -1,0 +1,254 @@
+2021-07-26 16:15:30,010 - root - DEBUG - Initializing Class
+2021-07-26 16:15:30,029 - root - DEBUG - Initializing get_data() function
+2021-07-26 16:15:30,152 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\notebooks, universal_newlines=False, shell=None, istream=None)
+2021-07-26 16:15:30,237 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\notebooks, universal_newlines=False, shell=None, istream=None)
+2021-07-26 16:15:30,319 - git.util - DEBUG - Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+2021-07-26 16:15:30,387 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\notebooks, universal_newlines=False, shell=None, istream=None)
+2021-07-26 16:15:30,480 - git.cmd - DEBUG - Popen(['git', 'clone', '-v', '--no-single-branch', '--progress', 'https://github.com/Blvisse/Pharmtec_Sales', 'C:\\Users\\blais\\AppData\\Local\\Temp\\tmpzh9xe_vwdvc-clone'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\notebooks, universal_newlines=True, shell=None, istream=None)
+2021-07-26 16:15:36,297 - root - DEBUG - Logging parameters to mlflow
+2021-07-26 16:15:36,345 - root - DEBUG - Suuccesfully ran function.
+2021-07-26 16:15:36,345 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\d4\7aedd9e2d580e06a6ef7ce1732e8b6 ----- Data Verion ------ a5eb4992a4a7919a1503bc1808c0fddda0096f8e ----- Data rows ------1017209 ------ Data columns ----- 9 --- 
+
+2021-07-26 16:15:36,496 - root - DEBUG - Initializing get_data() function
+2021-07-26 16:15:36,698 - root - DEBUG - Logging parameters to mlflow
+2021-07-26 16:15:36,732 - root - DEBUG - Suuccesfully ran function.
+2021-07-26 16:15:36,733 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\70\2189c326ce783ff913ddd6ff984946 ----- Data Verion ------ e19658cd38705b5ac782c4008cc8d122d5de83f7 ----- Data rows ------41088 ------ Data columns ----- 8 --- 
+
+2021-07-26 16:17:17,552 - root - DEBUG - Initializing Class
+2021-07-26 16:17:17,553 - root - DEBUG - Initializing get_data() function
+2021-07-26 16:17:17,749 - root - DEBUG - Logging parameters to mlflow
+2021-07-26 16:17:17,816 - root - DEBUG - Suuccesfully ran function.
+2021-07-26 16:17:17,817 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\70\2189c326ce783ff913ddd6ff984946 ----- Data Verion ------ e19658cd38705b5ac782c4008cc8d122d5de83f7 ----- Data rows ------41088 ------ Data columns ----- 8 --- 
+
+2021-07-26 16:18:19,931 - root - DEBUG - Initializing Class
+2021-07-26 16:18:19,932 - root - DEBUG - Initializing get_data() function
+2021-07-26 16:18:20,758 - root - DEBUG - Logging parameters to mlflow
+2021-07-26 16:18:20,827 - root - DEBUG - Suuccesfully ran function.
+2021-07-26 16:18:20,827 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\d4\7aedd9e2d580e06a6ef7ce1732e8b6 ----- Data Verion ------ a5eb4992a4a7919a1503bc1808c0fddda0096f8e ----- Data rows ------1017209 ------ Data columns ----- 9 --- 
+
+2021-07-26 16:33:21,578 - root - DEBUG - Initializing get_data() function
+2021-07-26 16:33:21,907 - root - DEBUG - Logging parameters to mlflow
+2021-07-26 16:33:21,947 - root - DEBUG - Suuccesfully ran function.
+2021-07-26 16:33:21,947 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\30\c9ccb5af66c21f65e7d1da967e6251 ----- Data Verion ------ 54bafee747300bae7e6837f571e84a92568dc985 ----- Data rows ------1115 ------ Data columns ----- 10 --- 
+
+2021-07-26 16:33:36,608 - root - DEBUG - Initializing get_data() function
+2021-07-26 16:33:36,870 - root - DEBUG - Logging parameters to mlflow
+2021-07-26 16:33:36,928 - root - DEBUG - Suuccesfully ran function.
+2021-07-26 16:33:36,928 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\30\c9ccb5af66c21f65e7d1da967e6251 ----- Data Verion ------ 54bafee747300bae7e6837f571e84a92568dc985 ----- Data rows ------1115 ------ Data columns ----- 10 --- 
+
+2021-07-26 16:34:54,167 - root - DEBUG - Initializing Class
+2021-07-26 16:34:54,168 - root - DEBUG - Initializing get_data() function
+2021-07-26 16:34:54,476 - root - DEBUG - Logging parameters to mlflow
+2021-07-26 16:34:54,548 - root - DEBUG - Suuccesfully ran function.
+2021-07-26 16:34:54,548 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\70\2189c326ce783ff913ddd6ff984946 ----- Data Verion ------ e19658cd38705b5ac782c4008cc8d122d5de83f7 ----- Data rows ------41088 ------ Data columns ----- 8 --- 
+
+2021-07-26 16:34:58,553 - root - DEBUG - Initializing get_data() function
+2021-07-26 16:34:58,832 - root - DEBUG - Logging parameters to mlflow
+2021-07-26 16:34:58,916 - root - DEBUG - Suuccesfully ran function.
+2021-07-26 16:34:58,917 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\30\c9ccb5af66c21f65e7d1da967e6251 ----- Data Verion ------ 54bafee747300bae7e6837f571e84a92568dc985 ----- Data rows ------1115 ------ Data columns ----- 10 --- 
+
+2021-07-26 16:35:33,976 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2021-07-26 16:35:34,048 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\sys.pyi
+2021-07-26 16:35:34,264 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 16:35:34,264 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2021-07-26 16:35:34,265 - parso.python.diff - DEBUG - -> code[equal] old[1:1] new[1:1]
+2021-07-26 16:35:34,265 - parso.python.diff - DEBUG - copy old[1:1] new[1:1]
+2021-07-26 16:35:34,265 - parso.python.diff - DEBUG - -> code[replace] old[2:2] new[2:2]
+2021-07-26 16:35:34,266 - parso.python.diff - DEBUG - parse_part from 2 to 2 (to 1 in part parser)
+2021-07-26 16:35:34,266 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 16:35:40,116 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 16:35:40,118 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2021-07-26 16:35:40,119 - parso.python.diff - DEBUG - -> code[equal] old[1:1] new[1:1]
+2021-07-26 16:35:40,119 - parso.python.diff - DEBUG - copy old[1:1] new[1:1]
+2021-07-26 16:35:40,121 - parso.python.diff - DEBUG - -> code[replace] old[2:2] new[2:2]
+2021-07-26 16:35:40,122 - parso.python.diff - DEBUG - parse_part from 2 to 2 (to 1 in part parser)
+2021-07-26 16:35:40,122 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 16:35:51,114 - root - DEBUG - Calculating the missing values
+2021-07-26 16:35:51,361 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2021-07-26 16:35:51,366 - root - INFO - Creating Dataframe
+2021-07-26 16:35:51,379 - root - INFO - Missing Values calculated
+2021-07-26 16:36:04,608 - root - DEBUG - Calculating the missing values
+2021-07-26 16:36:04,617 - root - INFO - Creating Dataframe
+2021-07-26 16:36:04,621 - root - INFO - Missing Values calculated
+2021-07-26 16:36:26,098 - root - DEBUG - Calculating the missing values
+2021-07-26 16:36:26,104 - root - INFO - Creating Dataframe
+2021-07-26 16:36:26,106 - root - INFO - Missing Values calculated
+2021-07-26 22:13:58,098 - root - DEBUG - Initializing Class
+2021-07-26 22:13:58,111 - root - DEBUG - Initializing get_data() function
+2021-07-26 22:13:58,413 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpzh9xe_vwdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-26 22:14:02,029 - root - ERROR - Program run into error... 
+ 
+2021-07-26 22:14:02,029 - root - ERROR - Error class <class 'dvc.scm.base.RevError'> 
+2021-07-26 22:14:19,975 - root - DEBUG - Initializing Class
+2021-07-26 22:14:19,978 - root - DEBUG - Initializing get_data() function
+2021-07-26 22:14:20,302 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpzh9xe_vwdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-26 22:14:23,983 - root - DEBUG - Logging parameters to mlflow
+2021-07-26 22:14:24,074 - root - DEBUG - Suuccesfully ran function.
+2021-07-26 22:14:24,077 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\70\2189c326ce783ff913ddd6ff984946 ----- Data Verion ------ 'test-v1' ----- Data rows ------41088 ------ Data columns ----- 8 --- 
+
+2021-07-26 22:20:19,265 - root - DEBUG - Initializing Class
+2021-07-26 22:20:19,268 - root - DEBUG - Initializing get_data() function
+2021-07-26 22:20:19,417 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpzh9xe_vwdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-26 22:20:24,226 - root - DEBUG - Logging parameters to mlflow
+2021-07-26 22:20:24,312 - root - DEBUG - Suuccesfully ran function.
+2021-07-26 22:20:24,313 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\d4\7aedd9e2d580e06a6ef7ce1732e8b6 ----- Data Verion ------ 'train-v1' ----- Data rows ------1017209 ------ Data columns ----- 9 --- 
+
+2021-07-26 22:20:28,161 - root - DEBUG - Initializing Class
+2021-07-26 22:20:28,162 - root - DEBUG - Initializing get_data() function
+2021-07-26 22:20:28,249 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpzh9xe_vwdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-26 22:20:32,064 - root - DEBUG - Logging parameters to mlflow
+2021-07-26 22:20:32,132 - root - DEBUG - Suuccesfully ran function.
+2021-07-26 22:20:32,132 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\d4\7aedd9e2d580e06a6ef7ce1732e8b6 ----- Data Verion ------ 'train-v1' ----- Data rows ------1017209 ------ Data columns ----- 9 --- 
+
+2021-07-26 22:21:29,668 - root - DEBUG - Initializing Class
+2021-07-26 22:21:29,669 - root - DEBUG - Initializing get_data() function
+2021-07-26 22:21:29,790 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpzh9xe_vwdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-26 22:21:32,971 - root - DEBUG - Logging parameters to mlflow
+2021-07-26 22:21:33,048 - root - DEBUG - Suuccesfully ran function.
+2021-07-26 22:21:33,049 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\70\2189c326ce783ff913ddd6ff984946 ----- Data Verion ------ 'test-v1' ----- Data rows ------41088 ------ Data columns ----- 8 --- 
+
+2021-07-26 22:21:44,605 - root - DEBUG - Initializing Class
+2021-07-26 22:21:44,606 - root - DEBUG - Initializing get_data() function
+2021-07-26 22:21:44,722 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpzh9xe_vwdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-26 22:21:47,500 - root - DEBUG - Logging parameters to mlflow
+2021-07-26 22:21:47,612 - root - DEBUG - Suuccesfully ran function.
+2021-07-26 22:21:47,612 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\70\2189c326ce783ff913ddd6ff984946 ----- Data Verion ------ 'test-v1' ----- Data rows ------41088 ------ Data columns ----- 8 --- 
+
+2021-07-26 22:22:51,650 - root - DEBUG - Initializing get_data() function
+2021-07-26 22:22:51,808 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpzh9xe_vwdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-26 22:22:55,156 - root - DEBUG - Logging parameters to mlflow
+2021-07-26 22:22:55,283 - root - DEBUG - Suuccesfully ran function.
+2021-07-26 22:22:55,285 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\30\c9ccb5af66c21f65e7d1da967e6251 ----- Data Verion ------ 'store-v1' ----- Data rows ------1115 ------ Data columns ----- 10 --- 
+
+2021-07-26 22:23:01,229 - root - DEBUG - Initializing get_data() function
+2021-07-26 22:23:01,347 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpzh9xe_vwdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-26 22:23:03,774 - root - DEBUG - Logging parameters to mlflow
+2021-07-26 22:23:03,861 - root - DEBUG - Suuccesfully ran function.
+2021-07-26 22:23:03,862 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\30\c9ccb5af66c21f65e7d1da967e6251 ----- Data Verion ------ 'store-v1' ----- Data rows ------1115 ------ Data columns ----- 10 --- 
+
+2021-07-26 22:32:58,396 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:32:58,414 - parso.python.diff - DEBUG - line_lengths old: 2; new: 1
+2021-07-26 22:32:58,414 - parso.python.diff - DEBUG - -> code[replace] old[1:2] new[1:1]
+2021-07-26 22:32:58,429 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:32:58,430 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:33:04,902 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:33:04,904 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:33:04,905 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:33:04,913 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:33:04,914 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:33:09,434 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:33:09,435 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:33:09,435 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:33:09,435 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:33:09,435 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:33:25,462 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:33:25,463 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:33:25,464 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:33:25,490 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:33:25,491 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:33:25,646 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py
+2021-07-26 22:33:25,701 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\__init__.py
+2021-07-26 22:33:25,715 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\__init__.py
+2021-07-26 22:33:25,806 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py
+2021-07-26 22:33:25,931 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\base.py
+2021-07-26 22:33:25,986 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\accessor.py
+2021-07-26 22:33:26,037 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py
+2021-07-26 22:33:26,077 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\arraylike.py
+2021-07-26 22:33:26,107 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\_typing.py
+2021-07-26 22:33:26,162 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\typing.py
+2021-07-26 22:33:26,190 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\typing.pyi
+2021-07-26 22:33:29,162 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\numpy\__init__.py
+2021-07-26 22:33:29,227 - parso.cache - DEBUG - pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\numpy\__init__.pyi
+2021-07-26 22:33:33,955 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:33:33,955 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:33:33,956 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:33:33,957 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:33:33,958 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:34:04,242 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:34:04,243 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:34:04,243 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:34:04,245 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:34:04,245 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:38:17,525 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:38:17,525 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:38:17,525 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:38:17,526 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:38:17,527 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:38:22,181 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:38:22,182 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:38:22,183 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:38:22,185 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:38:22,186 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:40:20,584 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:40:20,586 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:40:20,587 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:40:20,589 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:40:20,590 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:43:09,993 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:43:09,993 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:43:09,993 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:43:09,994 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:43:09,994 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:45:31,547 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:45:31,548 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:45:31,548 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:45:31,549 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:45:31,549 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:45:42,161 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:45:42,161 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:45:42,161 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:45:42,165 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:45:42,165 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:45:57,334 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:45:57,336 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:45:57,338 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:45:57,341 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:45:57,343 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:46:44,068 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:46:44,070 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:46:44,071 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:46:44,075 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:46:44,076 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:46:49,796 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:46:49,798 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:46:49,798 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:46:49,800 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:46:49,801 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:47:07,566 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:47:07,567 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:47:07,567 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:47:07,568 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:47:07,571 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:47:12,403 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:47:12,403 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:47:12,403 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:47:12,404 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:47:12,404 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:47:44,470 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:47:44,472 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:47:44,473 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:47:44,477 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:47:44,478 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:47:51,697 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:47:51,699 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:47:51,700 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:47:51,702 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:47:51,704 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:50:52,232 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:50:52,233 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:50:52,233 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:50:52,235 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:50:52,235 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:51:24,725 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:51:24,725 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:51:24,725 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:51:24,725 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:51:24,725 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:51:31,805 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 22:51:31,806 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 22:51:31,808 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 22:51:31,813 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 22:51:31,814 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 22:52:01,817 - root - DEBUG - Calculating the missing values
+2021-07-26 22:52:01,843 - root - INFO - Creating Dataframe
+2021-07-26 22:52:01,861 - root - INFO - Missing Values calculated
