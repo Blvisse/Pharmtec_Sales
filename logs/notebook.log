@@ -252,3 +252,63 @@
 2021-07-26 22:52:01,817 - root - DEBUG - Calculating the missing values
 2021-07-26 22:52:01,843 - root - INFO - Creating Dataframe
 2021-07-26 22:52:01,861 - root - INFO - Missing Values calculated
+2021-07-26 23:25:19,819 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 23:25:19,834 - parso.python.diff - DEBUG - line_lengths old: 1; new: 2
+2021-07-26 23:25:19,835 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:2]
+2021-07-26 23:25:19,857 - parso.python.diff - DEBUG - parse_part from 1 to 2 (to 1 in part parser)
+2021-07-26 23:25:19,859 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 23:25:27,906 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 23:25:27,908 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2021-07-26 23:25:27,909 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 23:25:27,912 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 1 in part parser)
+2021-07-26 23:25:27,913 - parso.python.diff - DEBUG - -> code[equal] old[2:2] new[2:2]
+2021-07-26 23:25:27,917 - parso.python.diff - DEBUG - copy old[2:1] new[2:2]
+2021-07-26 23:25:27,919 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 23:25:34,603 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 23:25:34,603 - parso.python.diff - DEBUG - line_lengths old: 2; new: 2
+2021-07-26 23:25:34,603 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 23:25:34,603 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 1 in part parser)
+2021-07-26 23:25:34,603 - parso.python.diff - DEBUG - -> code[equal] old[2:2] new[2:2]
+2021-07-26 23:25:34,603 - parso.python.diff - DEBUG - copy old[2:1] new[2:2]
+2021-07-26 23:25:34,603 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 23:25:45,038 - root - DEBUG - Launching duplicates search
+2021-07-26 23:25:45,143 - root - INFO - Number of duplicates in the datset are 0 
+2021-07-26 23:25:56,005 - root - DEBUG - Launching duplicates search
+2021-07-26 23:25:56,090 - root - INFO - Number of duplicates in the datset are 0 
+2021-07-26 23:26:00,036 - root - DEBUG - Launching duplicates search
+2021-07-26 23:26:01,282 - root - INFO - Number of duplicates in the datset are 0 
+2021-07-26 23:30:23,989 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 23:30:23,990 - parso.python.diff - DEBUG - line_lengths old: 2; new: 1
+2021-07-26 23:30:23,991 - parso.python.diff - DEBUG - -> code[replace] old[1:2] new[1:1]
+2021-07-26 23:30:23,991 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 23:30:23,992 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 23:30:31,879 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 23:30:31,881 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 23:30:31,882 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 23:30:31,886 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 23:30:31,886 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 23:30:40,806 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 23:30:40,807 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 23:30:40,807 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 23:30:40,808 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 23:30:40,808 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 23:30:46,966 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 23:30:46,967 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 23:30:46,967 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 23:30:46,968 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 23:30:46,969 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 23:31:17,166 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 23:31:17,168 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 23:31:17,169 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 23:31:17,172 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 23:31:17,174 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 23:32:41,261 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 23:32:41,262 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 23:32:41,262 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 23:32:41,264 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 23:32:41,264 - parso.python.diff - DEBUG - diff parser end
+2021-07-26 23:33:54,201 - parso.python.diff - DEBUG - diff parser start
+2021-07-26 23:33:54,201 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-26 23:33:54,202 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-26 23:33:54,202 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-26 23:33:54,202 - parso.python.diff - DEBUG - diff parser end
