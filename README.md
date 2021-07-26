@@ -21,7 +21,7 @@ The data will be stored in a dvc repo. The data's given features include
 
 **StoreType** - differentiates between 4 different store models: a, b, c, d
 
-**Assortment** - describes an assortment level: a = basic, b = extra, c = extended. Read more about assortment here
+**Assortment** - describes an assortment level: a = basic, b = extra, c = extended. Read more about assortment here (https://en.wikipedia.org/wiki/Retail_assortment_strategies)
 
 **CompetitionDistance** - distance in meters to the nearest competitor store
 
