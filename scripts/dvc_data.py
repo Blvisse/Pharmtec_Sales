@@ -21,8 +21,9 @@ class DVCDATA:
 
     def get_data(self,exp,datapath,repository,version):
         logging.debug("Initializing get_data() function")
-        # try:
+        
 
+        #raise a file not found error if this occurs to break the whole loop from runing
         
         try:
             with mlflow.start_run():
@@ -54,6 +55,10 @@ class DVCDATA:
             logging.error("Error class {} ".format(e.__class__))
             print ("The program ran into an error ... \n ")
             print("Error details {} ".format(e))
+            raise FileNotFoundError ("The files weren't Retrived")
+
+
+        
 
 if (__name__== '__main__'):
     instance=DVCDATA()
