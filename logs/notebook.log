@@ -85,3 +85,55 @@
 2021-07-29 11:37:51,567 - root - DEBUG - Initializng OrdinalEncoder
 2021-07-29 11:37:51,571 - root - INFO - An error occured
 2021-07-29 11:37:51,573 - root - ERROR - The following error has occured: <class 'ValueError'> 
+2021-07-29 14:35:52,400 - root - DEBUG - Initializing Class
+2021-07-29 14:35:52,441 - root - DEBUG - Initializing get_data() function
+2021-07-29 14:35:58,863 - git.cmd - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\blais\AppData\Local\Temp\tmpmoot7vlsdvc-clone, universal_newlines=False, shell=None, istream=<valid stream>)
+2021-07-29 14:36:03,789 - git.cmd - DEBUG - Popen(['git', 'checkout', 'main'], cwd=C:\Users\blais\AppData\Local\Temp\tmpmoot7vlsdvc-clone, universal_newlines=False, shell=None, istream=None)
+2021-07-29 14:36:05,203 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', '--unshallow', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpmoot7vlsdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-29 14:36:27,855 - root - DEBUG - Logging parameters to mlflow
+2021-07-29 14:36:28,376 - root - DEBUG - Suuccesfully ran function.
+2021-07-29 14:36:28,376 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\47\3915af4548fa416cc0731e9f3e8ba8 ----- Data Verion ------ maindata-v1 ----- Data rows ------1017209 ------ Data columns ----- 25 --- 
+
+2021-07-29 14:37:34,174 - parso.python.diff - DEBUG - diff parser start
+2021-07-29 14:37:34,191 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-29 14:37:34,191 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-29 14:37:34,210 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-29 14:37:34,211 - parso.python.diff - DEBUG - diff parser end
+2021-07-29 14:39:07,359 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2021-07-29 14:39:47,466 - parso.python.diff - DEBUG - diff parser start
+2021-07-29 14:39:47,476 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-29 14:39:47,478 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-29 14:39:47,502 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-29 14:39:47,503 - parso.python.diff - DEBUG - diff parser end
+2021-07-29 14:39:47,825 - parso.python.diff - DEBUG - diff parser start
+2021-07-29 14:39:47,825 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-29 14:39:47,825 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-29 14:39:47,826 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-29 14:39:47,827 - parso.python.diff - DEBUG - diff parser end
+2021-07-29 14:43:00,023 - parso.python.diff - DEBUG - diff parser start
+2021-07-29 14:43:00,469 - parso.python.diff - DEBUG - line_lengths old: 1; new: 1
+2021-07-29 14:43:00,470 - parso.python.diff - DEBUG - -> code[replace] old[1:1] new[1:1]
+2021-07-29 14:43:00,488 - parso.python.diff - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2021-07-29 14:43:00,489 - parso.python.diff - DEBUG - diff parser end
+2021-07-29 15:18:26,559 - root - DEBUG - Initializing Class
+2021-07-29 15:18:26,584 - root - DEBUG - Initializing get_data() function
+2021-07-29 15:18:26,929 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpmoot7vlsdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-29 15:18:30,430 - git.cmd - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\blais\AppData\Local\Temp\tmpmoot7vlsdvc-clone, universal_newlines=False, shell=None, istream=<valid stream>)
+2021-07-29 15:18:32,317 - root - ERROR - Program run into error... 
+ 
+2021-07-29 15:18:32,317 - root - ERROR - Error class <class 'dvc.scm.base.RevError'> 
+2021-07-29 15:23:21,167 - root - DEBUG - Initializing Class
+2021-07-29 15:23:21,172 - root - DEBUG - Initializing get_data() function
+2021-07-29 15:23:21,443 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpmoot7vlsdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-29 15:23:24,759 - git.cmd - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\blais\AppData\Local\Temp\tmpmoot7vlsdvc-clone, universal_newlines=False, shell=None, istream=<valid stream>)
+2021-07-29 15:23:30,213 - root - DEBUG - Logging parameters to mlflow
+2021-07-29 15:23:30,344 - root - DEBUG - Suuccesfully ran function.
+2021-07-29 15:23:30,345 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\47\3915af4548fa416cc0731e9f3e8ba8 ----- Data Verion ------ maindata-v2 ----- Data rows ------1017209 ------ Data columns ----- 25 --- 
+
+2021-07-29 15:24:04,976 - root - DEBUG - Initializing Class
+2021-07-29 15:24:04,976 - root - DEBUG - Initializing get_data() function
+2021-07-29 15:24:05,277 - git.cmd - DEBUG - Popen(['git', 'pull', '-v', 'origin'], cwd=C:\Users\blais\AppData\Local\Temp\tmpmoot7vlsdvc-clone, universal_newlines=True, shell=None, istream=None)
+2021-07-29 15:24:13,663 - root - DEBUG - Logging parameters to mlflow
+2021-07-29 15:24:13,794 - root - DEBUG - Suuccesfully ran function.
+2021-07-29 15:24:13,795 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\ec\4aaa6c7967dd923673d19111605bca ----- Data Verion ------ maindata-v2 ----- Data rows ------1017209 ------ Data columns ----- 28 --- 
+

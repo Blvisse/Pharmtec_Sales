@@ -1,0 +1,27 @@
+name: pharmtech-models
+on: [push]
+jobs: 
+
+  run:
+    runs-on: [ubuntu-latest]
+    container: docker://dvcorg/cml-py3:latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: cml-run 
+        env: 
+          repo-token: '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'
+        run: 
+
+            pip install -r requirements.txt
+            python model/randomForest.py
+
+            echo "##The model metrics" > report.md 
+            cat metrics.txt >> report.md
+
+            echot "##Data Viz" >> report.md
+            cml-publish model.png --md >> report.md
+            cml-publish residuals.png --md >> report.md 
+
+            cml-send-comment report.md
+            
+

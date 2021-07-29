@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/blais/Desktop/10-Academy/week%203/Pharmtec_Sales/model/mlruns/0/dc3c7717ab6640dbb4bc1cd23da63712/artifacts
+end_time: 1627553101030
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: dc3c7717ab6640dbb4bc1cd23da63712
+run_uuid: dc3c7717ab6640dbb4bc1cd23da63712
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1627553091634
+status: 3
+tags: []
+user_id: blais
