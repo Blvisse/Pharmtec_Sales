@@ -1,27 +1,24 @@
-name: pharmtech-models
+name: model training 
 on: [push]
-jobs: 
-
+jobs:
   run:
     runs-on: [ubuntu-latest]
     container: docker://dvcorg/cml-py3:latest
     steps:
       - uses: actions/checkout@v2
-      - name: cml-run 
-        env: 
-          repo-token: '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'
-        run: 
-
-            pip install -r requirements.txt
-            python randomForest.py
-
-            echo "##The model metrics" > report.md 
-            cat metrics.txt >> report.md
-
-            echot "##Data Viz" >> report.md
-            cml-publish model.png --md >> report.md
-            cml-publish residuals.png --md >> report.md 
-
-            cml-send-comment report.md
-            
-
+      - name: cml_run
+        env:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Your ML workflow goes here
+          pip install -r requirements.txt
+          python randomForest.py
+          
+          echo "## Model metrics" > report.md
+          cat metrics.txt >> report.md
+          
+          echo "## Data viz" >> report.md
+          cml-publish model.png --md >> report.md
+          cml-publish residuals.png --md >> report.md
+          
+          cml-send-comment report.md
