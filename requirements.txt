@@ -1,5 +1,7 @@
 pandas
 sklearn
-matplotlib
+mllflow
 seaborn
 numpy
+dvc
+seaborn 
