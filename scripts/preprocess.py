@@ -8,7 +8,8 @@ import pandas as pd
 import numpy as np
 import logging
 from scipy import stats
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler,OrdinalEncoder
+
 
 
 
@@ -16,7 +17,7 @@ logging.basicConfig(filename='../logs/preprocess.log', filemode='w', format='%(a
 
 class PREPROCESS:
 
-    def __init__(self,data):
+    def __init__(self):
         logging.debug("Initializing Class")
         
 
@@ -43,7 +44,49 @@ class PREPROCESS:
             logging.error("The following error occured {} ".format(e.__class__))
             print("The following error occured {} ".format(e.__class__))
     
+
+    def laeblEncoding(self,data,cols):
+        logging.debug("-------------------------------- Acessing label Encoding Functoin --------------------------------")
+        print("------- Acessing label encoding Functoin -----------")
+        
+
+        try: 
+            logging.debug("encoding columns")
+            print("--- Encoding columns ---")
+            for col in cols:
+                data[col]=data[col].astype('category')
+                data[col]=data[col].cat.codes
+            
+            return data 
+
+        except Exception as e:
+            logging.info("An error occured")
+            logging.error("The following error has occured: {} ".format(e.__class__))
+
     
+    
+    def ordinalEncodings(self,data,cols):
+        logging.debug("------- Accessing the ordinal function ------------")
+        print("----- Accessing the ordinal function ------------")
+
+        logging.debug("Initializng OrdinalEncoder")
+        oe=OrdinalEncoder()
+
+        print("Encoding columns")
+        try:
+            for col in cols:
+                data[col]=oe.fit_transform(data[col])
+            
+            return data
+        except Exception as e:
+            logging.info("An error occured")
+            logging.error("The following error has occured: {} ".format(e.__class__))
+
+
+
+            
+   
+   
     def scalingFeature(self,data):
         
         logging.debug("Accessing the scaling features function")
