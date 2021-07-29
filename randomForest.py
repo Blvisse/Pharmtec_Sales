@@ -18,8 +18,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error,mean_absolute_error
 from sklearn.model_selection import train_test_split
-from preprocess import PREPROCESS
-from dvc_data import DVCDATA
+import dvc.api
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OrdinalEncoder,StandardScaler 
@@ -39,9 +38,12 @@ import seaborn as sns
 print("------- Calling Data Class to fetch Data from dvc ----------\n")
 try:
 
-    logging.debug("Initalizing Data Class")
-    instance=DVCDATA()
-    data,dataurl,version=instance.get_data('Holiday Tech','data/Merged.csv','https://github.com/Blvisse/Pharmtec_Sales','maindata-v2')
+    # logging.debug("Initalizing Data Class")
+    # instance=DVCDATA()
+    # data,dataurl,version=instance.get_data('Holiday Tech','data/Merged.csv','https://github.com/Blvisse/Pharmtec_Sales','maindata-v2')
+    url=dvc.api.get_url(path='data/Merged.csv',repo='https://github.com/Blvisse/Pharmtec_Sales',rev='maindata-v2')
+    data=pd.read_csv(url)
+
 
 except Exception as e:
     logging.error("Failed to get data")
@@ -50,7 +52,7 @@ except Exception as e:
 
 #######################   Creating a preprocessing pipeline    #########################################
 print (" ---- Initializing preprocessing pipeline ------ \n")
-preInstance=PREPROCESS()
+
 ## we need to drop some columns that might not be of use to the model
 dropcols=['Date','Customers','Open','CompetitionOpenSinceMonth','CompetitionOpenSinceYear','Promo2SinceWeek','Promo2SinceYear','PromoInterval']
 data.drop(labels=dropcols,inplace=True,axis=1)
