@@ -8,7 +8,7 @@ if module_path not in sys.path:
 if module_path not in sys.path:
     sys.path.append(module_path+"\\model")
 
-logging.basicConfig(filename='../logs/model.log', filemode='w', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.DEBUG)
+logging.basicConfig(filename='..\logs\model.log', filemode='w', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.DEBUG)
 
 
 logging.debug('------ Importing Libraries ----')
