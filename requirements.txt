@@ -1,6 +1,6 @@
 pandas
 sklearn
-mllflow
+mlflow
 seaborn
 numpy
 dvc
