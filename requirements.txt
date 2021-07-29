@@ -6,3 +6,4 @@ numpy
 dvc
 seaborn 
 xgboost
+dvc[gdrive]
