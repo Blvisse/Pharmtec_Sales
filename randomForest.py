@@ -8,7 +8,7 @@ if module_path not in sys.path:
 if module_path not in sys.path:
     sys.path.append(module_path+"\\model")
 
-logging.basicConfig(filename='..\logs\model.log', filemode='w', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.DEBUG)
+logging.basicConfig(filename='logs/model.log', filemode='w', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.DEBUG)
 
 
 logging.debug('------ Importing Libraries ----')
@@ -28,8 +28,12 @@ import mlflow
 import mlflow.sklearn
 import matplotlib.pyplot as plt
 import seaborn as sns
+import pathlib
 
+PATH=pathlib.Path(__file__).parent
+DATA_PATH=PATH.joinpath("./data").resolve
 
+dpath=PATH.joinpath("Merged.csv")
 
 #We have created a pipeline we want to carry out preprocessing
 
@@ -41,9 +45,9 @@ try:
     # logging.debug("Initalizing Data Class")
     # instance=DVCDATA()
     # data,dataurl,version=instance.get_data('Holiday Tech','data/Merged.csv','https://github.com/Blvisse/Pharmtec_Sales','maindata-v2')
-    url=dvc.api.get_url(path='data/Merged.csv',repo='https://github.com/Blvisse/Pharmtec_Sales',rev='maindata-v2')
+    url=dvc.api.get_url(path=dpath,repo='https://github.com/Blvisse/Pharmtec_Sales',rev='maindata-v2')
     data=pd.read_csv(url)
-
+    print(data)
 
 except Exception as e:
     logging.error("Failed to get data")
