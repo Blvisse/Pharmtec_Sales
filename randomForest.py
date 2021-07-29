@@ -45,7 +45,7 @@ try:
     # logging.debug("Initalizing Data Class")
     # instance=DVCDATA()
     # data,dataurl,version=instance.get_data('Holiday Tech','data/Merged.csv','https://github.com/Blvisse/Pharmtec_Sales','maindata-v2')
-    url=dvc.api.get_url(path=dpath,repo='https://github.com/Blvisse/Pharmtec_Sales',rev='maindata-v2')
+    url=dvc.api.get_url(path='./data/Merged.csv',repo='https://github.com/Blvisse/Pharmtec_Sales',rev='maindata-v2')
     data=pd.read_csv(url)
     print(data)
 
