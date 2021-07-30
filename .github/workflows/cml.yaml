@@ -16,8 +16,7 @@ jobs:
           pip install -r requirements.txt
           dvc remote modify myremote gdrive_use_service_account true
           dvc pull -r myremote --verbose
-          dvc repro
-          dvc pull 
+
           python randomForest.py
           
           echo "## Model metrics" > report.md

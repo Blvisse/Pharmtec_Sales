@@ -46,7 +46,7 @@ try:
     # instance=DVCDATA()
     # data,dataurl,version=instance.get_data('Holiday Tech','data/Merged.csv','https://github.com/Blvisse/Pharmtec_Sales','maindata-v2')
     # url=dvc.api.get_url(path='data/Merged.csv',repo='https://github.com/Blvisse/Pharmtec_Sales',rev='maindata-v2')
-    data=pd.read_csv('data/Merged.csv')
+    data=pd.read_csv('..data/Merged.csv')
     print(data)
 
 except Exception as e:
