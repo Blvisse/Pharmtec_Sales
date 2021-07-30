@@ -1,0 +1,3 @@
+Pipeline(steps=[('Scaler ', StandardScaler()),
+                ('Linear Regression', LinearRegression())],
+         verbose=True)

@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/0/566cf316887e42b5b841b690aad6aa80/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 566cf316887e42b5b841b690aad6aa80
+run_uuid: 566cf316887e42b5b841b690aad6aa80
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1627650562773
+status: 1
+tags: []
+user_id: blais
