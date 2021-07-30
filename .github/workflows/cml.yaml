@@ -6,6 +6,7 @@ jobs:
     container: docker://dvcorg/cml-py3:latest
     steps:
       - uses: actions/checkout@v2
+      - uses: iterative/setup-cml@v1
       - name: cml_run
         env:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
@@ -13,6 +14,9 @@ jobs:
         run: |
           # Your ML workflow goes here
           pip install -r requirements.txt
+          dvc remote modify filterout --local gdrive_service_account_json_file_path /dev/null
+          dvc pull -r filterout --verbose
+          dvc repro
           dvc pull 
           python randomForest.py
           
