@@ -14,8 +14,7 @@ jobs:
         run: |
           # Your ML workflow goes here
           pip install -r requirements.txt
-          dvc remote modify filterout --local gdrive_service_account_json_file_path /dev/null
-          dvc pull -r filterout --verbose
+          dvc pull -r myremote --verbose
           dvc repro
           dvc pull 
           python randomForest.py
