@@ -4,3 +4,4 @@
     url = /tmp/dvc-storage
 ['remote "myremote"']
     url = gdrive://17Dtc1x94ZikBjPgI5IwQ7EOsbfA9YOEN
+    gdrive_use_service_account = true
