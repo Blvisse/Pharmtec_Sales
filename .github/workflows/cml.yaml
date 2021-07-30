@@ -10,7 +10,7 @@ jobs:
       - name: cml_run
         env:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          GDRIVE_CREDENTIALS_DATA: ${{  }}
+          GDRIVE_CREDENTIALS_DATA: ${{ secrets.ORIGINAL_SERVICE_ACCOUNT_JSON }}
         run: |
           # Your ML workflow goes here
           pip install -r requirements.txt
