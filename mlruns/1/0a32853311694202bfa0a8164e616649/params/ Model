@@ -1,0 +1,3 @@
+Pipeline(steps=[('Scaler ', StandardScaler()),
+                ('Decision Tree', DecisionTreeRegressor())],
+         verbose=True)
