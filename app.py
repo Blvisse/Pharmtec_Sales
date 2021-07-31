@@ -9,7 +9,7 @@ app=Flask(__name__)
 import pickle 
 import pandas as pd
 from datetime import datetime
-model=pickle.load(open('model/model.pkl','rb'))
+model=pickle.load(open('model.pkl','rb'))
 
 @app.route('/')
 def homepage():
