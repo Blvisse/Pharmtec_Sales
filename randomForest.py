@@ -33,6 +33,7 @@ import mlflow.sklearn
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pathlib
+import numpy as np
 
 from sklearn.model_selection import GridSearchCV
 
@@ -70,6 +71,10 @@ print (" ---- Initializing preprocessing pipeline ------ \n")
 logging.debug (" Initializing preprocessing pipeline")
 
 ## we need to drop some columns that might not be of use to the model
+print(" ------ Dropping rows with no sales and stores that are closed ------------------ ")
+## we drop stores that are closed as they don't make any sales 
+data=data[(data['Open']!=0) | (data['Sales']!=0)]
+
 dropcols=['Date','Customers','Open','CompetitionOpenSinceMonth','CompetitionOpenSinceYear','Promo2SinceWeek','Promo2SinceYear','PromoInterval']
 data.drop(labels=dropcols,inplace=True,axis=1)
 
@@ -88,6 +93,8 @@ data['StateHoliday']=data['StateHoliday'].cat.codes
 
 oe=OrdinalEncoder()
 data[ordcols]=oe.fit_transform(data[ordcols])
+
+
 
 
 
@@ -247,7 +254,7 @@ for idx,gs in enumerate(grids):
         print('Best params: %s' % gs.best_params_)
         mlflow.log_param("Best Metrics",gs.best_params_)
         # # Best training data accuracy
-        print('Best training accuracy: %.3f' % gs.best_score_)
+        print('Best training score: %.3f' % gs.best_score_)
         mlflow.log_metric("Best Score",gs.best_score_)
         print("Best Estimator",gs.best_estimator_)
         mlflow.log_param("Feature Importance",gs.best_estimator_.feature_importances_)
@@ -261,12 +268,20 @@ for idx,gs in enumerate(grids):
         sns.set(style="whitegrid")
         ax = sns.barplot(x="importance", y="feature", data=feature)
         ax.set_xlabel('Importance',fontsize = axis_fs) 
-        ax.set_ylabel('Feature', fontsize = axis_fs)#ylabel
+        ax.set_ylabel('Feature', fontsize = axis_fs)
         ax.set_title('Decision Tree \nfeature importance', fontsize = title_fs)
+        # with open('feature_importance.txt' ,'w') as outfile:
+        #     # outfile.write("Best Estimator: {} ".format(gs.best_estimator_))
+        #     outfile.write("Best Score : %2.1f%%\n"%gs.best_score_)
+           
+        #     outfile.write("Mean Absolute Error:  {}" .format(gs.best_params_))
+            
+        np.savetxt('feature_importance.txt', feature.values,fmt='%s')
 
-        plt.tight_layout()
+        
         plt.savefig("feature_importance.png",dpi=120)
         mlflow.log_artifact("feature_importance.png")
+        mlflow.log_artifact("feature_importance.txt") 
         mlflow.sklearn.log_model(gs.best_estimator_,"Best Model")
 
 # dtSearch.fit(X_train,y_train) 

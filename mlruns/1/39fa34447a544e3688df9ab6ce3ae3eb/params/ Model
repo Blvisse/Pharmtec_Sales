@@ -1,0 +1,1 @@
+{'Scaler ': StandardScaler(), 'Principal Component Analysis': PCA(n_components=2), 'Decision Tree': DecisionTreeRegressor()}
