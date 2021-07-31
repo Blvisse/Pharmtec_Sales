@@ -1,7 +1,13 @@
 import mlflow
 from flask import Flask,request,render_template
+import logging
 logged_model = 'runs:/cdda265c77d14d70a74c818df770ddd2/Best Model'
 app=Flask(__name__)
+
+logging.basicConfig(filename='logs/deploying.log', filemode='w', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.DEBUG)
+
+
+logging.debug('------ Importing Libraries ----')
 # Load model as a PyFuncModel.
 # loaded_model = mlflow.pyfunc.load_model(logged_model)
 
@@ -13,12 +19,14 @@ model=pickle.load(open('model.pkl','rb'))
 
 @app.route('/')
 def homepage():
+    logging.debug('Calling Homepage route ')
     return render_template('homepage.html')
 
 @app.route('/prediction',methods=['POST'])
 
 def predict():
-
+    print("Recieving request from users...")
+    logging.debug("------------ Received request --------")
     store=request.form.get('store')
     Date=request.form.get('date')
 
@@ -51,9 +59,13 @@ def predict():
     # vals= [str(x) for x in request.form.values()]
     # data=request.get_json(force=True)
     # data.update((X,[y] for X,y in data.items()))
+    print("Calling Model")
+    logging.debug(" --------------------------------Initlaizing Machine model --------------------------------")
     print(vals)
     prediction=model.predict(vals)
     print(prediction)
+    print("Completed predictions")
+    logging.debug(" -------- Completed predictions --------")
 
     return render_template('output.html', predictions=prediction)
     
