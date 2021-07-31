@@ -1,0 +1,1 @@
+{'Scaler ': StandardScaler(), 'Linear Regression': LinearRegression()}

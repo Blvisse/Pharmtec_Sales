@@ -1,0 +1,12 @@
+2021-07-29 11:59:25,316 - root - DEBUG - Initializing Class
+2021-07-29 11:59:25,318 - root - DEBUG - Initializing get_data() function
+2021-07-29 11:59:25,554 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\model, universal_newlines=False, shell=None, istream=None)
+2021-07-29 11:59:25,718 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\model, universal_newlines=False, shell=None, istream=None)
+2021-07-29 11:59:25,840 - git.util - DEBUG - Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+2021-07-29 11:59:25,845 - git.cmd - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales, universal_newlines=False, shell=None, istream=<valid stream>)
+2021-07-29 11:59:26,051 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\model, universal_newlines=False, shell=None, istream=None)
+2021-07-29 11:59:26,161 - git.cmd - DEBUG - Popen(['git', 'clone', '-v', '--no-single-branch', '--branch=maindata-v1', '--depth=1', '--progress', 'https://github.com/Blvisse/Pharmtec_Sales', 'C:\\Users\\blais\\AppData\\Local\\Temp\\tmp1t6k913kdvc-clone'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\model, universal_newlines=True, shell=None, istream=None)
+2021-07-29 11:59:35,550 - root - DEBUG - Logging parameters to mlflow
+2021-07-29 11:59:35,612 - root - DEBUG - Suuccesfully ran function.
+2021-07-29 11:59:35,632 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\47\3915af4548fa416cc0731e9f3e8ba8 ----- Data Verion ------ maindata-v1 ----- Data rows ------1017209 ------ Data columns ----- 25 --- 
+

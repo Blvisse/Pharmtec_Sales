@@ -1,0 +1,4 @@
+Training Variance: 0.9%
+Test Variance: 0.9%
+Mean Squared: 1281828.8%
+Mean Absolute Error: 795.1%

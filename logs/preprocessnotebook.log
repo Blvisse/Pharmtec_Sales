@@ -1,0 +1,22 @@
+2021-07-29 23:19:28,986 - root - DEBUG - Initializing Class
+2021-07-29 23:19:28,988 - root - DEBUG - Initializing get_data() function
+2021-07-29 23:19:29,180 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\notebooks, universal_newlines=False, shell=None, istream=None)
+2021-07-29 23:19:29,239 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\notebooks, universal_newlines=False, shell=None, istream=None)
+2021-07-29 23:19:29,323 - git.util - DEBUG - Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+2021-07-29 23:19:29,419 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\notebooks, universal_newlines=False, shell=None, istream=None)
+2021-07-29 23:19:29,508 - git.cmd - DEBUG - Popen(['git', 'clone', '-v', '--no-single-branch', '--branch=maindata-v2', '--depth=1', '--progress', 'https://github.com/Blvisse/Pharmtec_Sales', 'C:\\Users\\blais\\AppData\\Local\\Temp\\tmpyxxucf27dvc-clone'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\notebooks, universal_newlines=True, shell=None, istream=None)
+2021-07-29 23:19:40,990 - git.cmd - DEBUG - AutoInterrupt wait stderr: b''
+2021-07-29 23:19:40,991 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\notebooks, universal_newlines=False, shell=None, istream=None)
+2021-07-29 23:19:41,053 - git.cmd - DEBUG - Popen(['git', 'clone', '-v', '--no-single-branch', '--progress', 'https://github.com/Blvisse/Pharmtec_Sales', 'C:\\Users\\blais\\AppData\\Local\\Temp\\tmpyxxucf27dvc-clone'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\notebooks, universal_newlines=True, shell=None, istream=None)
+2021-07-29 23:19:52,530 - git.cmd - DEBUG - AutoInterrupt wait stderr: b''
+2021-07-29 23:19:52,539 - root - ERROR - Program run into error... 
+ 
+2021-07-29 23:19:52,539 - root - ERROR - Error class <class 'dvc.scm.base.CloneError'> 
+2021-07-29 23:20:09,152 - root - DEBUG - Initializing Class
+2021-07-29 23:20:09,153 - root - DEBUG - Initializing get_data() function
+2021-07-29 23:20:09,235 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\notebooks, universal_newlines=False, shell=None, istream=None)
+2021-07-29 23:20:09,421 - git.cmd - DEBUG - Popen(['git', 'clone', '-v', '--no-single-branch', '--branch=maindata-v2', '--depth=1', '--progress', 'https://github.com/Blvisse/Pharmtec_Sales', 'C:\\Users\\blais\\AppData\\Local\\Temp\\tmpsv51ezaudvc-clone'], cwd=C:\Users\blais\Desktop\10-Academy\week 3\Pharmtec_Sales\notebooks, universal_newlines=True, shell=None, istream=None)
+2021-07-29 23:20:18,426 - root - DEBUG - Logging parameters to mlflow
+2021-07-29 23:20:18,478 - root - DEBUG - Suuccesfully ran function.
+2021-07-29 23:20:18,478 - root - INFO - Data URL ----- ..\..\..\..\..\..\..\tmp\dvc-storage\ec\4aaa6c7967dd923673d19111605bca ----- Data Verion ------ maindata-v2 ----- Data rows ------1017209 ------ Data columns ----- 28 --- 
+

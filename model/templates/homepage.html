@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Store Sales Precition</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        html{
+            overflow: auto;
+        }
+
+        body{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #login-form-container{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>	
+<body>
+    <div >
+        <form action="{{ url_for('predict')}}" method="post">
+            <div class="card" style="width: 400px">
+            <div class="card-content">
+                <div class="media">
+                <div class="is-size-4 has-text-centered">Store Sales Prediction Model</div>
+                </div>
+                <div class="content">
+                    <div class="field">
+                        <p class="control">
+                        Store ID: <input class="input" type="number" name="store" id="store">
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control">
+                        Date: <input class="input" type="date" name="date" id="date">
+                        </p>
+                    </div>
+                
+              
+
+                <div class="field">
+                    <p class="control">
+                    Does store Have a promo 
+                    <select id="promo" name="promo">
+                        <option value=1>Yes</option>
+                        <option value=0>No</option>
+
+                    </select>
+                        
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                    State Holiday?  
+                    <select id="StateHoliday" name="StateHoliday">
+                        <option value=0>No</option>
+                        <option value=1>Yes</option>
+
+
+                    </select>
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                    Is it also a school Holiday? 
+                    <select id="school" name="school">
+                        <option value=1>Yes</option>
+                        <option value=0>No</option>
+
+                    </select>
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                    Sales_per_Customer: <input class="input" type="number" name="salespercust" id="salespercust">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                    StoreType : 
+                    <select id="storetype" name="storetype">
+                        <option value=0>a</option>
+                        <option value=1>b</option>
+                        <option value=2>c</option>
+                        
+
+                    </select>
+
+
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                    Assortment : 
+                    <select id="assortment" name="assortment">
+                        <option value=0>a</option>
+                        <option value=1>b</option>
+                        <option value=2>c</option>
+                        
+
+                    </select>
+
+
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                    CompetitionDistance : <input class="input" type="number" name="compdistance" id="compdistance">
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                    Competition Open : 
+                    <select id="compopen" name="compopen">
+                        <option value=0>No</option>
+                        <option value=1>Yes</option>
+                        
+                        
+
+                    </select>
+
+
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                    Promo 2 Open : 
+                    <select id="prom2open" name="prom2open">
+                        <option value=0>No</option>
+                        <option value=1>Yes</option>
+                        
+                        
+
+                    </select>
+
+
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                    Is promo2 Month : 
+                    <select id="prom2mon" name="prom2mon">
+                        <option value=0>No</option>
+                        <option value=1>Yes</option>
+                        
+                        
+
+                    </select>
+
+
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                    Is it the weekend : 
+                    <select id="weekend" name="weekend">
+                        <option value=0>No</option>
+                        <option value=1>Yes</option>
+                        
+                        
+
+                    </select>
+
+
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                    Days to next holidays : <input class="input" type="number" name="daysafter" id="daysafter">
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                    Day since last holiday : <input class="input" type="number" name="daysbefore" id="daysbefore">
+                    </p>
+                </div>
+               
+                <div class="field">
+                    <button type="submit" class="button is-fullwidth is-rounded is-success">Predict</button>
+                </div>
+                </div>
+            </div>
+            
+        </form>
+
+        <br>
+        <br>
+
+        {{predictions}}
+    </div>
+</body>
+</html>

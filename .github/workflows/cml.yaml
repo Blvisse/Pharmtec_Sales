@@ -1,0 +1,42 @@
+name: model training 
+on: [push]
+jobs:
+  run:
+    runs-on: [ubuntu-latest]
+    container: docker://dvcorg/cml-py3:latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: iterative/setup-cml@v1
+      - name: cml_run
+        env:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          GDRIVE_CREDENTIALS_DATA: ${{ secrets.ORIGINAL_SERVICE_ACCOUNT_JSON }}
+        run: |
+          # Your ML workflow goes here
+          pip install -r requirements.txt
+          dvc remote modify myremote gdrive_use_service_account true
+          dvc pull -r myremote --verbose
+
+          python randomForest.py
+          
+          echo "## Model metrics" > report.md
+          cat metric.txt >> report.md
+          cat metric2.txt >> report.md
+          cat metricdec.txt >> report.md
+          cat metriclineae.txt >> report.md
+          cat metricxgb.txt >> report.md
+          cat metricdecpca.txt >> report.md
+
+          
+          echo "## Data viz" >> report.md
+          cml-publish Model.png --md >> report.md
+          cml-publish residuals.png --md >> report.md
+          cml-publish feature_importance.png --md >> report.md
+          cml-publish predlineae.png --md >> report.md
+          cml-publish predxgb.png --md >> report.md
+          cml-publish preddec.png --md >> report.md
+          cml-publish preddecpca.png --md >> report.md
+          cml-publish predxgbpca.png --md >> report.md
+          cml-publish predclineaepca.png --md >> report.md
+          
+          cml-send-comment report.md

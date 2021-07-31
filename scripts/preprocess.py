@@ -45,7 +45,7 @@ class PREPROCESS:
             print("The following error occured {} ".format(e.__class__))
     
 
-    def laeblEncoding(self,data,cols):
+    def labelEncoding(self,data,cols):
         logging.debug("-------------------------------- Acessing label Encoding Functoin --------------------------------")
         print("------- Acessing label encoding Functoin -----------")
         
@@ -53,9 +53,8 @@ class PREPROCESS:
         try: 
             logging.debug("encoding columns")
             print("--- Encoding columns ---")
-            for col in cols:
-                data[col]=data[col].astype('category')
-                data[col]=data[col].cat.codes
+            data[cols]=data[cols].astype('category')
+            data[cols]=data[cols].cat.codes
             
             return data 
 
@@ -74,8 +73,8 @@ class PREPROCESS:
 
         print("Encoding columns")
         try:
-            for col in cols:
-                data[col]=oe.fit_transform(data[col])
+            
+            data[cols]=oe.fit_transform(data[cols])
             
             return data
         except Exception as e:

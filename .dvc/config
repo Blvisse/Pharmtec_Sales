@@ -1,4 +1,10 @@
 [core]
-    remote = dvc-remote
+    remote = myremote
 ['remote "dvc-remote"']
     url = /tmp/dvc-storage
+['remote "myremote"']
+    url = gdrive://17Dtc1x94ZikBjPgI5IwQ7EOsbfA9YOEN
+    gdrive_use_service_account = true
+    gdrive_service_account_json_file_path = ../data/pharmtechsales-c164e0a1fa68.json
+    gdrive_user_credentials_file = tmp/myremote-credentials.json
+

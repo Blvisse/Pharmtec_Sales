@@ -34,3 +34,19 @@ The data will be stored in a dvc repo. The data's given features include
 **Promo2Since[Year/Week]** - describes the year and calendar week when the store started participating in Promo2
 
 **PromoInterval** - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
+
+## Code Structure 
+1. .dvc folder contains references to data stored in the dvc repository 
+2. .gihub/workflows contains cml yaml file thate uses github actions to generate report when new changes are pushed to the repository
+3. data older houses our data.dvc tracking files 
+4. log folder contain running logs of all the sripts, scripts for various models are preffixed with the script they log eg dvc.log logs data from the dvc script
+5. mlruns is a folder that contains mlflow data on models and data, it pushed and tacks models trained 
+6. notebooks contain all the notebooks used 
+     * pharmtech- this notebook contains eda and sumary of  the intial data initial data 
+     * Preprocessing notebook, involves preprocessing scripts to clean and feature engineer our data 
+ 7. scripts folder contains all of our scripts that we reference in the notebook a brief descrition is made at the begining of a script expalaing what it does
+ 8. templates are rendered tamplataes for our deployed model, This are basic html files that style our front end 
+ 9. test folder contains unit tests carried out on programs in thie repo
+ 10. The .png files are all logged metrics from our training models 
+ 11. The procfile is an essential document for deployment of our model to heroku 
+ 12. model.pkl is our trained model hyperparameter tuned and ready for deserialization 
