@@ -32,7 +32,7 @@ jobs:
           cml-publish Model.png --md >> report.md
           cml-publish residuals.png --md >> report.md
           cml-publish feature_importance.png --md >> report.md
-          cml-publish prediclineae.png --md >> report.md
+          cml-publish predlineae.png --md >> report.md
           cml-publish predxgb.png --md >> report.md
           cml-publish preddec.png --md >> report.md
           cml-publish preddecpca.png --md >> report.md
