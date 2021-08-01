@@ -1,6 +1,6 @@
 # Pharmtec_Sales
 ## Summary
-A Pharmtec company wants to forecast sales in their stores acrros several cities six weeks ahead of time. This repo uses the given data to extract the features and use them to help predict store sales accross the stores
+A Pharmtec company wants to forecast sales in their stores acrros several cities six weeks ahead of time. We use a range of models from decsiontrees, deep learning modesl (LSTM) and Facebooks new algorithim Facebook Prophet. The project uses the given data to extract the features and use them to help predict store sales accross the stores
 
 ## Data
 The data will be stored in a dvc repo. The data's given features include
@@ -50,3 +50,30 @@ The data will be stored in a dvc repo. The data's given features include
  10. The .png files are all logged metrics from our training models 
  11. The procfile is an essential document for deployment of our model to heroku 
  12. model.pkl is our trained model hyperparameter tuned and ready for deserialization 
+
+## Badges 
+[![GitHub issues](https://img.shields.io/github/issues/Blvisse/Pharmtec_Sales)](https://github.com/Blvisse/Pharmtec_Sales/issues)
+[![GitHub license](https://img.shields.io/github/license/Blvisse/Pharmtec_Sales)](https://github.com/Blvisse/Pharmtec_Sales)
+
+## Packages
+Main packages used 
+
+``` pip install dvc ```
+
+``` pip install flask ```
+
+``` pip install mlflow ```
+
+``` pip install fbprophet ```
+
+### import data from dvc
+
+``` dvc pull ```
+
+### Start flask serve
+
+``` python app.py ```
+
+### View mlflow log 
+
+``` mlflow ui ```
