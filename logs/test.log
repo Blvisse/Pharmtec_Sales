@@ -1,0 +1,5 @@
+2021-08-01 15:30:48,850 - root - DEBUG -  ---------------- initializing Test Check Nulls ---------------- 
+
+2021-08-01 15:30:48,858 - root - INFO -  ---------------- Passed test ----------------
+2021-08-01 15:30:48,859 - root - DEBUG - ============== Initalizing Test Duplicates ============== 
+2021-08-01 15:30:50,614 - root - INFO -  ========== Passed test ============= 
